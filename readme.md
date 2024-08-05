@@ -9,7 +9,6 @@ Codeify is a powerful code converter that transforms code from one programming l
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
