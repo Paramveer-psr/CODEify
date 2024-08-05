@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+  font-family: Inter var, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+  background-color: rgb(238 230 223);
+  margin: 0;
+  padding: 0;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.app {
+  align-items: center;
+  height: 100vh;
+}
+.SourceLanguage-list,
+.TargetLanguage-list {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang-selector {
+  background-color: #fff;
+  border: 0 solid #1a1a1a;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 20px;
+  height: 40%;
+  max-height: 50px;
+  min-width: 0;
+  outline: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  background-color: rgb(238 230 223);
+  margin-top: 32px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.source-container,
+.target-container {
+  width: 48%;
+}
+
+.source-container center,
+.target-container center {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: monospace;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px auto;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+/* File Input */
+.file-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #ccc;
+  padding: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.file-input:hover {
+  border-color: #999;
+}
+
+/* Instructions */
+.instructions {
+  text-align: center;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #666;
+}
+
+.glow-on-hover {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 40px;
+  min-width: 0;
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.header {
+  margin: 20px;
+  padding-left: 25px;
+  font-size: xx-large;
+  font-weight: 900;
+  font-family: cursive;
+}
+/* 
+.container{
+	display: flex;
+	margin: 20px;
+}
+.source-container{
+	width: 50%;
+	margin-right: 10px;
+}
+.target-container{
+	width: 50%;
+	margin-left: 10px;
+}
+.source-lang{
+	margin-bottom: 10px;
+
+}
+.button{
+    align-content: center;
+} */
