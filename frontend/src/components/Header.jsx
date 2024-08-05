@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <div className="header">
-      <p>CodeMorph</p>
+      <p>CODEify</p>
     </div>
   );
 };
